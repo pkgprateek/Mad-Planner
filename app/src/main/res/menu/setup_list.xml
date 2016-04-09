@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_add" android:title="@string/add"
+        android:orderInCategory="50" app:showAsAction="always"
+        android:icon="@drawable/fab_plus_icon" />
+    <item android:id="@+id/action_done" android:title="@string/done"
+        android:orderInCategory="100" app:showAsAction="always"
+        android:icon="@drawable/ic_done_white_24dp"/>
+
+</menu>

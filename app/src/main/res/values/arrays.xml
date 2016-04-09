@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="database_types">
+        <item>Lecture</item>
+        <item>Lab</item>
+        <item>Class</item>
+        <item>Surgery</item>
+    </string-array>
+
+    <string-array name="database_examtypes">
+        <item>Coursework</item>
+        <item>Class Test</item>
+        <item>Exam</item>
+    </string-array>
+
+
+    <string-array name="overview_options">
+        <item>Now</item>
+        <item>Timetable</item>
+        <item>Homeworks</item>
+        <item>Exams</item>
+    </string-array>
+
+    <string-array name="text_size_options">
+        <item>Small</item>
+        <item>Medium</item>
+    </string-array>
+    <string-array name="text_size_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+
+    <string-array name="weekdays">
+        <item>Monday</item>
+        <item>Tuesday</item>
+        <item>Wednesday</item>
+        <item>Thursday</item>
+        <item>Friday</item>
+        <item>Saturday</item>
+        <item>Sunday</item>
+    </string-array>
+
+    <string-array name="quick_repeat_options">
+        <item>Tomorrow</item>
+        <item>End of the week</item>
+        <item>Week</item>
+        <item>Two weeks</item>
+    </string-array>
+
+    <string-array name="colour_names">
+        <item>Red</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Deep Purple</item>
+        <item>Indigo</item>
+        <item>Blue</item>
+        <item>Cyan</item>
+        <item>Teal</item>
+        <item>Green</item>
+        <item>Lime</item>
+        <item>Yellow</item>
+        <item>Orange</item>
+        <item>Deep orange</item>
+        <item>Brown</item>
+        <item>Grey</item>
+        <item>Blue</item>
+    </string-array>
+    <string-array name="colour_values">
+        <item>#F44336</item>
+        <item>#E91E63</item>
+        <item>#9C27B0</item>
+        <item>#673AB7</item>
+        <item>#3F51B5</item>
+        <item>#2196F3</item>
+        <item>#00BCD4</item>
+        <item>#009688</item>
+        <item>#4CAF50</item>
+        <item>#CDDC39</item>
+        <item>#FFEB3B</item>
+        <item>#FF9800</item>
+        <item>#FF5722</item>
+        <item>#795548</item>
+        <item>#9E9E9E</item>
+        <item>#607D8B</item>
+    </string-array>
+    <string-array name="colour_light">
+        <item>#FFCDD2</item>
+        <item>#F8BBD0</item>
+        <item>#E1BEE7</item>
+        <item>#D1C4E9</item>
+        <item>#C5CAE9</item>
+        <item>#BBDEFB</item>
+        <item>#B2EBF2</item>
+        <item>#B2DFDB</item>
+        <item>#C8E6C9</item>
+        <item>#F0F4C3</item>
+        <item>#FFF9C4</item>
+        <item>#FFE0B2</item>
+        <item>#FFCCBC</item>
+        <item>#D7CCC8</item>
+        <item>#F5F5F5</item>
+        <item>#CFD8DC</item>
+    </string-array>
+</resources>

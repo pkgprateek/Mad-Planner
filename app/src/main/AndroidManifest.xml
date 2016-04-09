@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.pkgprateek.madplanner" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Overview"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".AppSetting"
+            android:label="@string/action_settings" >
+            <intent-filter>
+                <action android:name="Schedule.APPSETTINGS" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".DevDatabase"
+            android:label="@string/pref_key_database" >
+            <intent-filter>
+            <action android:name="Schedule.DEVDATABASE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+
+        <activity
+            android:name=".Setup"
+            android:label="@string/pref_key_database" >
+            <intent-filter>
+                <action android:name="Schedule.SETUP" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".AddHomework"
+            android:label="@string/homework" >
+            <intent-filter>
+                <action android:name="Schedule.ADDHOMEWORK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ViewHomework"
+            android:label="@string/homework" >
+            <intent-filter>
+                <action android:name="Schedule.VIEWHOMEWORK" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddReminder"
+            android:label="@string/reminder" >
+            <intent-filter>
+                <action android:name="Schedule.ADDREMINDER" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AddExam"
+            android:label="@string/exam" >
+            <intent-filter>
+                <action android:name="Schedule.ADDEXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewExam"
+            android:label="@string/exam" >
+            <intent-filter>
+                <action android:name="Schedule.VIEWEXAM" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".TimetableEditer"
+            android:label="@string/timetable_editor" >
+            <intent-filter>
+                <action android:name="Schedule.EDITTIMETABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ViewTimetable"
+            android:label="@string/timetable" >
+            <intent-filter>
+                <action android:name="Schedule.VIEWTIMEABLE" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

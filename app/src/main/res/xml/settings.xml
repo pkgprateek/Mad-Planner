@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_now">
+
+        <PreferenceScreen
+            android:key="settings_pref_key_now"
+            android:title="@string/pref_key_daystoshow"
+            android:summary="@string/pref_key_daystoshow_summary">
+
+            <Preference
+                android:summary="@string/pref_key_daystoshow_now_desc" />
+            <CheckBoxPreference
+                android:title="@string/pref_key_daystoshow_now_today"
+                android:defaultValue="true"
+                android:enabled="false"
+                android:key="pref_value_now_today"/>
+            <CheckBoxPreference
+                android:title="@string/pref_key_daystoshow_now_tomorrow"
+                android:defaultValue="true"
+                android:enabled="false"
+                android:key="pref_value_now_tomorrow"/>
+            <CheckBoxPreference
+                android:title="@string/pref_key_daystoshow_now_twodays"
+                android:defaultValue="false"
+                android:key="pref_value_now_twodays"/>
+            <CheckBoxPreference
+                android:title="@string/pref_key_daystoshow_now_plus"
+                android:defaultValue="false"
+                android:key="pref_value_now_plus"/>
+
+        </PreferenceScreen>
+
+        <Preference
+            android:key="settings_pref_key_currentweek"
+            android:title="@string/pref_key_currentweek"
+            android:summary="@string/pref_key_currentweek_summary"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_appearance">
+
+        <ListPreference
+            android:key="settings_pref_key_appearancesize"
+            android:title="@string/pref_key_appearance_size"
+            android:summary="@string/pref_key_appearance_size_summary"
+            android:entries="@array/text_size_options"
+            android:entryValues="@array/text_size_values"
+            android:defaultValue="1"/>
+
+    </PreferenceCategory>
+
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_dev">
+        <Preference
+            android:key="settings_pref_key_setup"
+            android:title="@string/pref_key_setup"
+            android:summary="@string/pref_key_setup_summary"/>
+        <Preference
+            android:key="settings_pref_key_database"
+            android:title="@string/pref_key_database"
+            android:summary="@string/pref_key_database_summary"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/pref_cat_me">
+
+        <Preference
+            android:key="settings_pref_key_about"
+            android:title="@string/pref_key_about"
+            android:summary="@string/pref_key_about_summary" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

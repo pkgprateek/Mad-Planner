@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textAlignment="center">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textAlignment="center"
+        android:paddingRight="32dp"
+        android:paddingLeft="32dp"
+        android:id="@+id/linearLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="What week rotation do you have?"
+            android:id="@+id/textView10"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="16dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center|center_vertical"
+            android:layout_margin="4dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="1"
+                android:id="@+id/rot1"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="2"
+                android:id="@+id/rot2"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="3"
+                android:id="@+id/rot3"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="4dp">
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="4"
+                android:id="@+id/rot4"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="5"
+                android:id="@+id/rot5"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp" />
+
+            <Button
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:text="6"
+                android:id="@+id/rot6"
+                android:background="@drawable/current_week_button"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:fab="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollingView"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="0dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="0dp">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:orientation="vertical" android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/now_feed">
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/action_button"
+        fab:menu_icon="@drawable/fab_plus_icon"
+        fab:menu_colorNormal="@color/accent"
+        fab:menu_colorPressed="@color/accent"
+        fab:menu_colorRipple="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp"
+        android:layout_marginBottom="16dp" >
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_homework"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_colorPressed="@color/accent"
+            fab:fab_colorRipple="@color/white"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_edit_white_24dp"
+            fab:fab_label="Homework"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_exams"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_colorPressed="@color/accent"
+            fab:fab_colorRipple="@color/white"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_school_black_24dp"
+            fab:fab_label="Exams"/>
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/button_remind"
+            fab:fab_colorNormal="@color/accent"
+            fab:fab_colorPressed="@color/accent"
+            fab:fab_colorRipple="@color/white"
+            fab:fab_size="mini"
+            android:src="@drawable/ic_access_alarms_black_24dp"
+            fab:fab_label="Reminders"/>
+
+    </com.github.clans.fab.FloatingActionMenu>
+    </RelativeLayout>

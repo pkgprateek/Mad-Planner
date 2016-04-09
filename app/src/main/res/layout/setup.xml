@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <!--
+    <com.pkgprateek.madplanner.ex.SlidingTabLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/slidingtab"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary" />
+    -->
+    <com.pkgprateek.madplanner.ex.CustomViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+    </com.pkgprateek.madplanner.ex.CustomViewPager>
+
+</LinearLayout>

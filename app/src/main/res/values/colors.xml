@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#2196F3</color>
+    <color name="primary_dark">#1976D2</color>
+    <color name="primary_light">#BBDEFB</color>
+    <color name="accent">#607D8B</color>
+    <color name="accent_light">#8097A2</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#727272</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#B6B6B6</color>
+    <color name="transparent">#00000000</color>
+    <color name="faded">#E4E4E4</color>
+
+    <color name="faded_text">#B8B8B8</color>
+
+    <color name="white">#FFF</color>
+    <color name="black">#000</color>
+
+    <color name="div">#555</color>
+
+    <color name="alert">#FF0000</color>
+
+    <color name="homework_indicator">#D32F2F</color>
+    <color name="homework_done_indicator">#689F38</color>
+
+    <color name="now_feed_standard">@color/accent</color>
+
+    <color name="background_colour">#F2F2F2</color>
+</resources>
